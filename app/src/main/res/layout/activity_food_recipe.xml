@@ -5,10 +5,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FoodRecipe">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <ListView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow android:gravity="center">
+        <ImageView
+            android:id="@+id/recipeImageView"
+            android:layout_width="304dp"
+            android:layout_height="198dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="45dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </TableRow>
+    <TableRow android:gravity="center">
+        <TextView
+            android:id="@+id/recipetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TITLE_ARROZBLANCOELOTE"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="267dp" />
+    </TableRow>
+    <TableRow android:gravity="center_horizontal">
+        <TextView
+            android:text="Ingredientes"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+    <TableRow android:gravity="center">
+      <TextView
+          android:paddingLeft="30px"
+          android:paddingBottom="30px"
+            android:id="@+id/ingredientesTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="320dp" />
+    </TableRow >
+    <TableRow android:gravity="center">
+        <TextView
+            android:id="@+id/preparacionTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparacion"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="356dp" />
+    </TableRow>
+    <TableRow android:gravity="center">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:text="Compatir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="493dp"
+            tools:ignore="MissingConstraints" />
+    </TableRow>
+    <TableRow android:gravity="center">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:onClick="getBack"
+            android:text="Salir"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintVertical_bias="0.0" />
+    </TableRow>
+</TableLayout>
+    </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>

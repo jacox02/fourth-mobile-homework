@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">List App</string>
+    <string name="app_name">RECETAR.IO</string>
+    <string name="TITLE_SALPICON">TOSTADAS DE SALPICÓN</string>
+    <string name="TITLE_TACOS_DE_MILANESAPOLLO">TACOS DE MILANESA DE POLLO</string>
+    <string name="TITLE_SANDWICH_NOPALJAMONQUESO">SÁNDWICH DE NOPAL CON JAMÓN Y QUESO</string>
+    <string name="TITLE_ARROZBLANCOELOTE">ARROZ BLANCO CON ELOTE Y CHILE POBLANO</string>
+    <string name="TITLE_TORTITASPAPAJAMON">TORTITAS DE PAPA CON JAMÓN</string>
+    <string name="TITLE_PASTASALSAVERDE">PASTA CON SALSA VERDE</string>
+    <string name="TITLE_CAKETRESLECHES">PASTEL DE 3 LECHES CON HARINA PARA HOT CAKES</string>
+    <string name="TITLE_STRUDELFRESA">STRUDEL DE FRESA</string>
+    <string name="TITLE_TARTAZANAHORIA">TARTA DE ZANAHORIA</string>
+    <string name="TITLE_TARTAQUESO">TARTA DE QUESO</string>
+    <string name="TITLE_BUDINCASERO">BUDIN DE PAN CASERO</string>
+    <string name="TITLE_COCASJCHOCOLATE">COCA DE SAN JUAN DE CHOCOLATE</string>
+    <string name="TITLE_BARTORILLOS">BARTOLILLOS MADRILEÑOS</string>
+    <string name="TITLE_MOUSSELIMON">MOUSSE DE LIMÓN</string>
+    <string name="TITLE_PASTELLAVA">PASTEL LAVA</string>
+    <string name="TITLE_PATATASVEGANAS">TORTILLA DE PATATAS VEGANA</string>
+    <string name="TITLE_REVUELTOVEGANO">REVUELTO VEGANO DE TOFU</string>
+    <string name="TITLE_TORTILLAVEGANAPATATAS">TORTITLLA VEGANA DE PATATAS</string>
+    <string name="TITLE_TORTILLAVEGANA">TORTILLA JUGOSA VEGANA DE CALABACIN</string>
+    <string name="TITLE_CURRYMANGO">CURRY DE GARBANZOS CON MANGO</string>
+    <string name="TITLE_PASTAATUN">PASTA CON ATUN</string>
+    <string name="TITLE_PASTACHORIZO">PASTA CON CHORIZO</string>
+    <string name="TITLE_CODITOSSALSA">CODITOS CON SALSA CREMOSA</string>
+    <string name="TITLE_CUPCAKECHOCOLATE">CUPCAKES DE CHOCOLATE</string>
+    <string name="TITLE_MACARRONESQUESO">MACARRONES CON QUESO Y ESPINACA</string>
 </resources>
